@@ -67,7 +67,8 @@ button {
     height: 50px;;
 }
 select {
-    flex: 1;
+    width:100%;
+    max-width:450px;
     color:#fff;
     background: #413d8486;
     height: 50px;
@@ -83,9 +84,6 @@ select {
     .row {
         display: flex;
         flex-direction: column;  
-        
     }
-  select {
-    flex:auto;
-  }
+ 
 }
